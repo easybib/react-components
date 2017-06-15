@@ -13,7 +13,7 @@ Add the `loadingReducer` to your store under `loading`.
 
 ```js
 import { createStore, combineReducers } from 'redux'
-import { loadingReducer } from 'redux-loading'
+import { loadingReducer } from '@chegg/redux-loading-queue'
 
 const store = createStore(
   combineReducers({
@@ -25,7 +25,7 @@ const store = createStore(
 To add or remove an item with a certain id to the loading queue, use the provided actions.
 
 ```js
-import { loadingShow, loadingHide } from 'redux-loading'
+import { loadingShow, loadingHide } from '@chegg/redux-loading-queue'
 
 const uuid = '123e4567-e89b-12d3-a456-426655440000'
 
