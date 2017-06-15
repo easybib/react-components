@@ -4,7 +4,7 @@ Redux Loading Queue
 A loading queue for Redux
 
 ```js
-npm install --save redux-loading-queue
+npm install --save @chegg/redux-loading-queue
 ```
 
 ## Usage
