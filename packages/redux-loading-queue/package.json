@@ -1,6 +1,6 @@
 {
   "name": "@chegg/redux-loading-queue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React loading component for multiple Redux actions",
   "main": "lib/index.js",
   "scripts": {
